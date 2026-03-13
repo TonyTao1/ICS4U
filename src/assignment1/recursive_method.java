@@ -8,6 +8,6 @@ public class recursive_method {
 		if(input.length() == 1) {
 			return input;
 		}
-		return rev(input.substring(input.indexOf("")+1 ) + "," + input.subtsring(0, indexOf(""));
+		return rev(input.substring(input.indexOf("")+1 ) + "," + input.substring(0, input.indexOf("")));
 	}
 }

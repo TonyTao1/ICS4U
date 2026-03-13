@@ -1,4 +1,4 @@
-package Class11;
+package TutoringClasses;
 
 import java.util.*;
 import java.io.*;

@@ -5,8 +5,7 @@ import java.util.*;
 class Template {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) throws IOException {
-        println("hi");
-        println(2);
+        
     }
 
     public static void println() {

@@ -30,26 +30,26 @@ public class wordMazeTest {
         // Register every test suite here.
         runTest(
                 "Test 1: Basic grids (APPLES, ORANGE, LIME)",
-                "assignment2/testsuites/test1_input.txt",
-                "assignment2/testsuites/test1_expected.txt"
+                "src/assignment2/testsuites/test1_input.txt",
+                "src/assignment2/testsuites/test1_expected.txt"
         );
 
         runTest(
                 "Test 2: Straight vs turning path (ABG differs maze1 vs maze2)",
-                "assignment2/testsuites/test2_input.txt",
-                "assignment2/testsuites/test2_expected.txt"
+                "src/assignment2/testsuites/test2_input.txt",
+                "src/assignment2/testsuites/test2_expected.txt"
         );
 
         runTest(
                 "Test 3: Alternating grid, short/long/missing words",
-                "assignment2/testsuites/test3_input.txt",
-                "assignment2/testsuites/test3_expected.txt"
+                "src/assignment2/testsuites/test3_input.txt",
+                "src/assignment2/testsuites/test3_expected.txt"
         );
 
         runTest(
                 "Test 4: wordMaze1Bonus scoring (WORD/MAZE/BEST/GAME grid, score 351)",
-                "assignment2/testsuites/test4_input.txt",
-                "assignment2/testsuites/test4_expected.txt"
+                "src/assignment2/testsuites/test4_input.txt",
+                "src/assignment2/testsuites/test4_expected.txt"
         );
 
         // Final summary line.

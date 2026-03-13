@@ -1,4 +1,4 @@
-package  Class4;
+package TutoringClasses;
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online
 
@@ -13,9 +13,27 @@ class Main {
         System.out.println(linearInt(new int[]{1, 2, 4, 6}, new int[]{2, 3, 4}));
         System.out.println(linearInt(new int[]{1, 2, 4, 4, 6}, new int[]{2, 4}));
         System.out.println(linearInt(new int[]{1, 2, 3}, new int[]{3, 4}));
-
+        numToWord(32578);
         // Question1();
         // Question2();
+    }
+    
+    public static void numToWord(int num){
+        String[] digitToWord = new String[]{"zero","one","two","three","four","five","six","seven","eight","nine"};
+        
+        while(num > 0){
+            System.out.print(digitToWord[num%10]+ " ");
+            num/=10;
+        }
+    }
+    
+    public static boolean isPalindrome(String str){
+        for(int i = 0; i < str.length() / 2; i++){
+            if(str.charAt(i) != str.charAt(str.length() - i - 1)){
+                return false;
+            }
+        }
+        return true;
     }
 
     public static void Question3() {
